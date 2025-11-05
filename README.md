@@ -1,30 +1,44 @@
-# SkillSync architecture plan
+# 🚀 SkillSync: AI Gamified Learning Platform
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+> An **AI-powered collaborative and gamified learning platform** that helps users discover teammates, build projects, and enhance skills through intelligent matching and interactive challenges.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/jaishreeram0107-3145s-projects/v0-skill-sync-architecture-plan)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/j4J3Xjt1le3)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/)
+[![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js-black?style=for-the-badge&logo=nextdotjs)](https://nextjs.org/)
+[![Powered by Firebase](https://img.shields.io/badge/Backend-Firebase-orange?style=for-the-badge&logo=firebase)](https://firebase.google.com/)
+[![AI Gemini](https://img.shields.io/badge/AI-Gemini-blue?style=for-the-badge&logo=google)](https://ai.google.dev/gemini-api)
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 🧠 Overview
 
-## Deployment
+**SkillSync** is an **AI-driven learning assistant** designed to make learning and collaboration fun, smart, and effective.  
+It uses **Google Gemini API** to intelligently **match users based on skills**, recommend **personalized projects**, and track **progress through gamified challenges**.
 
-Your project is live at:
+---
 
-**[https://vercel.com/jaishreeram0107-3145s-projects/v0-skill-sync-architecture-plan](https://vercel.com/jaishreeram0107-3145s-projects/v0-skill-sync-architecture-plan)**
+## ✨ Key Features
 
-## Build your app
+- 🔍 **AI Skill Matching** – Gemini API analyzes user profiles to suggest ideal teammates and learning partners.  
+- 🧩 **Gamified Learning** – Earn XP, badges, and streaks for completing lessons and projects.  
+- 💡 **AI-Powered Recommendations** – Get personalized project and learning suggestions.  
+- 🔐 **Firebase Authentication** – Secure user login, registration, and session management.  
+- ⚡ **Realtime Database Sync** – Instant updates with Firestore for seamless collaboration.  
+- 🎨 **Responsive UI** – Built with **Next.js + Tailwind CSS** for modern design and fast performance.
 
-Continue building your app on:
+---
 
-**[https://v0.app/chat/j4J3Xjt1le3](https://v0.app/chat/j4J3Xjt1le3)**
+## 🛠️ Tech Stack
 
-## How It Works
+| Category | Technology |
+|-----------|-------------|
+| **Frontend** | Next.js, TypeScript, Tailwind CSS |
+| **Backend** | Node.js, Firebase Cloud Functions |
+| **Database** | Firebase Firestore |
+| **Authentication** | Firebase Auth |
+| **AI Integration** | Google Gemini API |
+| **Deployment** | Vercel |
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+---
+
+## 🧩 Architecture Overview
+
